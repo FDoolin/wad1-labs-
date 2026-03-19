@@ -16,9 +16,14 @@ const dashboard = {
     response.render('dashboard', viewData);
   },
   addPlaylist(request,response){
+    const timestamp = new Date();
+    const rating = parseInt(request.body.rating);
+
     const newPlaylist = {
       id: uuidv4(),
       title: request.body.title,
+      date: timestamp,
+      rating: rating,
       songs: [],
     };
     playlistStore.addPlaylist(newPlaylist);

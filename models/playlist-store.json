@@ -3,32 +3,29 @@
     {
       "id": "01",
       "title": "Beethoven Sonatas",
+      "rating": 3,
       "songs": [
         {
-          "id": "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "Beethoven"
-        },
-        {
           "id": "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Beethoven"
+          "title": "Song 64523",
+          "artist": "beethoven2"
         },
         {
           "id": "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethoven"
+          "title": "Not a Song",
+          "artist": "not beethoven"
         },
         {
           "id": "a3382b00-819f-4774-80eb-4cdfc6a8de36",
-          "title": "Song",
-          "artist": "Writer"
+          "title": "Beethoven No 56",
+          "artist": "Beethoven"
         }
       ]
     },
     {
       "id": "02",
       "title": "Beethoven Concertos",
+      "rating": 4,
       "songs": [
         {
           "id": "07",
@@ -41,6 +38,20 @@
           "artist": "Beethoven"
         }
       ]
+    },
+    {
+      "id": "0a69c00a-de8e-4d65-9849-fa049c9a6fca",
+      "title": "Playlist with a date",
+      "date": "2026-03-19T15:38:54.882Z",
+      "rating": 1,
+      "songs": []
+    },
+    {
+      "id": "189c4bfd-e4d6-4981-836b-71aaee77a5a6",
+      "title": "Platlist with Rating",
+      "date": "2026-03-19T16:07:26.456Z",
+      "rating": 5,
+      "songs": []
     }
   ]
 }
