@@ -9,7 +9,6 @@ const empStore ={
     array:[],
     
 
-
     getEmpInfo(){
         return this.store.findAll(this.collection);
     },

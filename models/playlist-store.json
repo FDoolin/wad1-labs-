@@ -1,57 +1,18 @@
 {
   "playlistCollection": [
     {
-      "id": "01",
-      "title": "Beethoven Sonatas",
-      "rating": 3,
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "a816b238-63d6-42d8-902a-a1e42a6eaa1e",
+      "title": "play",
+      "rating": 2,
       "songs": [
         {
-          "id": "05",
-          "title": "Song 64523",
-          "artist": "beethoven2"
-        },
-        {
-          "id": "06",
-          "title": "Not a Song",
-          "artist": "not beethoven"
-        },
-        {
-          "id": "a3382b00-819f-4774-80eb-4cdfc6a8de36",
-          "title": "Beethoven No 56",
-          "artist": "Beethoven"
+          "id": "5ebf393a-3021-49cf-9a8d-abdb186a717e",
+          "title": "walking",
+          "artist": "running"
         }
-      ]
-    },
-    {
-      "id": "02",
-      "title": "Beethoven Concertos",
-      "rating": 4,
-      "songs": [
-        {
-          "id": "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven"
-        },
-        {
-          "id": "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven"
-        }
-      ]
-    },
-    {
-      "id": "0a69c00a-de8e-4d65-9849-fa049c9a6fca",
-      "title": "Playlist with a date",
-      "date": "2026-03-19T15:38:54.882Z",
-      "rating": 1,
-      "songs": []
-    },
-    {
-      "id": "189c4bfd-e4d6-4981-836b-71aaee77a5a6",
-      "title": "Playlist with Rating",
-      "date": "2026-03-19T16:07:26.456Z",
-      "rating": 5,
-      "songs": []
+      ],
+      "date": "2026-04-17T21:41:09.787Z"
     }
   ]
 }
