@@ -70,15 +70,17 @@ const dashboard = {
       date: timestamp
     };
 
-    playlistStore.addPlaylist(newPlaylist);
+    playlistStore.addPlaylist(newPlaylist, request.files.picture, function(){
     response.redirect('/dashboard');
+    });
   },
-  deletePlaylist(request,response){
+    deletePlaylist(request, response) {
     const playlistId = request.params.id;
-    logger.debug('Deleting Playlist ${playlistId}');
-    playlistStore.removePlaylist(playlistId);
-    response.redirect("/dashboard");
-  }
+    logger.debug(`Deleting Playlist ${playlistId}`);
+    playlistStore.removePlaylist(playlistId, function() {
+      response.redirect("/dashboard");
+    });
+  },
 };
 
 export default dashboard;

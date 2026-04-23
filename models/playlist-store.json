@@ -1,18 +1,3 @@
 {
-  "playlistCollection": [
-    {
-      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "id": "a816b238-63d6-42d8-902a-a1e42a6eaa1e",
-      "title": "play",
-      "rating": 2,
-      "songs": [
-        {
-          "id": "5ebf393a-3021-49cf-9a8d-abdb186a717e",
-          "title": "walking",
-          "artist": "running"
-        }
-      ],
-      "date": "2026-04-17T21:41:09.787Z"
-    }
-  ]
+  "playlistCollection": []
 }
